@@ -13,6 +13,8 @@ class Jugador(object):
 
         self.conteo = 0
 
+        
+
     def __str__(self):
         return f'Jugador-{self.jugador} - Conteo: {self.conteo}'
     
